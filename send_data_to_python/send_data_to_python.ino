@@ -18,9 +18,9 @@ void setup()
 
 void loop()
 {               
-    unsigned int uS = sonar.ping(); // Send ping, get ping time in microseconds (uS).
-    Serial.print("Ping: ");
-    Serial.print(uS / US_ROUNDTRIP_CM); // Convert ping time to distance in cm and print result (0 = outside set distance range)
-    Serial.println("cm");
+    unsigned int uS = sonar.ping();
+    unsigned int distance = uS / US_ROUNDTRIP_CM;
+    String data_to_send = String(distance);
+    Serial.println(data_to_send); 
     delay(1000);  
 }
