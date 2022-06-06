@@ -17,6 +17,11 @@ pip install pyserial
 Arduino VS Code extension:
 Arduino: initialize
 
+## collect_data_from_arduino.py
+
+Receive data from Arduino Nano and HC-SR04 ultrasonic sensor.
+Run the test for a set amount of time, save data to csv file and plot results.
+
 ## run_arduino_on_input.py
 
 Steps:
