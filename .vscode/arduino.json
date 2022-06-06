@@ -1,0 +1,6 @@
+{
+    "sketch": "test_ultra_sonic/test_ultra_sonic.ino",
+    "configuration": "cpu=atmega328",
+    "board": "arduino:avr:nano",
+    "port": "/dev/tty.usbserial-1310"
+}
